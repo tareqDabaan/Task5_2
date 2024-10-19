@@ -1,0 +1,90 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f0f4f8;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 600px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.converter-header h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.converter-header p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+.converter-input input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.converter-input input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+.converter-select {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.converter-select select {
+  width: calc(50% - 10px);
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.convert-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #5a67d8;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.convert-btn:hover {
+  background-color: #434aa7;
+  color: white;
+}
+
+.result-text {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+.result-text span {
+  font-weight: bold;
+}
